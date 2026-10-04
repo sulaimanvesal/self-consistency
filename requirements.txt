@@ -1,0 +1,5 @@
+pytest>=8.0
+# `openai` is OPTIONAL and only needed for the optional OpenAICompatBackend
+# (used with a real model / OpenAI-compatible endpoint). Everything else,
+# including the demo and the test suite, runs fully offline without it.
+# openai>=1.0
